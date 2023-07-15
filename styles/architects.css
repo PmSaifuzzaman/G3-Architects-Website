@@ -3,9 +3,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;800&display=swap');
 
+/* Overall design */
 
 *{
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border: none;
 }
 
 /* Header styles */
@@ -41,4 +52,19 @@ nav>ul li a{
 /* Banner style start */
 .banner-content{
     text-align: center;
+}
+.banner-title{
+    color:  #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 30px;
 }
