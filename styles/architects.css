@@ -153,6 +153,18 @@ nav>ul li a{
     font-weight: 600;
 }
 
+/* Sponsor section design */
+
+.sponsor-title{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.sponsor-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
