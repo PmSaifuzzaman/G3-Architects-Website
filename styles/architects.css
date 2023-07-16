@@ -192,6 +192,10 @@ nav>ul li a{
         flex-direction: column;
         gap: 1rem;
     }
+    .sponsor-logo{
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
 
 /* For tablet and medium devices */
