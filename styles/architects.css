@@ -166,6 +166,18 @@ nav>ul li a{
     justify-content: space-around;
 }
 
+/* Footer section Design */
+
+footer{
+    border-radius: 5px;
+    background: #FFF4E7;
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 
 /* Responsive Media quiry */
