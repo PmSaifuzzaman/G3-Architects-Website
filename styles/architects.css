@@ -80,7 +80,7 @@ nav>ul li a{
     display: flex;
     margin-top: 130px;
     margin-bottom: 130px;
-    gap: 5rem;
+    gap: 3rem;
     justify-content: space-between;
     
 }
@@ -88,6 +88,9 @@ nav>ul li a{
 .feature-container  .fact-title{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
+}
+.feature-title{
+    width: 50%;
 }
 
 .feature-box{
@@ -101,12 +104,34 @@ nav>ul li a{
     margin: 0px;
 }
 .feature-img{
-    margin-right: 0px ;
+    width: 50%;
 }
 .feature-img img{
     height: 90%;
-    
+    width: 100%;
+    margin-left: 4rem;
 }
+.ten-year-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 300px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 95px;
+}
+.ten-year-badge h2{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0px;
+}
+.ten-year-badge p{
+    margin-top: 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /* Team section design starts from here */
 .team-container{
     /* margin-left: 120px;
@@ -191,6 +216,7 @@ nav>ul li a{
 .sponsor-title{
     text-align: center;
     padding-bottom: 3rem;
+    margin-top: 100px;
 }
 
 .sponsor-logo{
