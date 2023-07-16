@@ -17,6 +17,7 @@
     font-weight: 600;
     color: white;
     border: none;
+    cursor: pointer;
 }
 main{
     max-width: 1440px;
@@ -84,7 +85,7 @@ nav>ul li a{
 .team-img-container{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
-    gap: 10px;
+    gap: 20px;
     padding-right: 60px;
 }
 .team-title .gray-text{
@@ -123,6 +124,17 @@ nav>ul li a{
     header{
         padding: 50px 10px;
     }
+    .team-container{
+        flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1 , 1fr);
+        padding-right: 0px;
+    }
+    .team-title-container{
+        text-align: center;
+        padding-top: 10px;
+    }
 }
 
 /* For tablet and medium devices */
@@ -132,5 +144,15 @@ nav>ul li a{
     }
     header{
         padding: 50px 30px;
+    }
+    .team-container{
+        flex-direction: column;
+    }
+    .team-img-container{
+        padding-right: 0px;
+    }
+    .team-title-container{
+        text-align: center;
+        padding-top: 10px;
     }
 }
