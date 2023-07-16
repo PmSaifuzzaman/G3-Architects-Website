@@ -18,6 +18,10 @@
     color: white;
     border: none;
 }
+main{
+    max-width: 1440px;
+    margin: 50px auto;
+}
 
 /* Header styles */
 
@@ -69,6 +73,43 @@ nav>ul li a{
     margin-top: 30px;
 }
 
+/* Team section design starts from here */
+.team-container{
+    margin-left: 120px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+    padding-right: 60px;
+}
+.team-title .gray-text{
+    color: #727272;
+    font-size: 3rem;
+    font-weight: 500;  
+}
+.team-title .of-our{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.team-title .feature-text{
+    color: #FF900E;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.team-description{
+    font-size: 1rem;
+    color: #727272;
+    font-weight: 400;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+/* Team section design end */
 
 
 
